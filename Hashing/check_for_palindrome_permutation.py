@@ -15,6 +15,8 @@ def is_palindrome_per(s):
 
     return True
 
+# This 2nd function i had done by using dictionaries
+
 
 def is_palindrome_per_dict(s):
     # making a dictanary count the frequency of the elements
