@@ -1,5 +1,4 @@
 # Bubble Sort Algorithm
-
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n-1):
@@ -8,6 +7,10 @@ def bubble_sort(arr):
             if arr[j] > arr[j+1]:
                 swapped = True
                 arr[j], arr[j+1] = arr[j+1], arr[j]
-
         if swapped == False:
             return
+
+
+arr = [2, 4, 1, 5, 8, 0]
+bubble_sort(arr)
+print(arr)
